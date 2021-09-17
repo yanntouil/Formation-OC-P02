@@ -1,0 +1,57 @@
+/**
+ * Project Reservia
+ * Main CSS file
+ */
+
+
+/**
+ * Reset and base
+ */
+*, *::before, *::after {
+    box-sizing: border-box;
+    min-width: 0;
+}
+html {
+    font-size: 1rem;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    overflow-wrap: break-word;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: normal;
+}
+ul, ul li {
+   margin:0;
+   padding: 0;
+   text-indent: 0;
+   list-style-type: 0;
+}
+img, svg {
+    vertical-align: middle;
+    border-style: none;
+}
+svg:not([fill]) {
+    fill: currentColor;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+
+
+
+
+
