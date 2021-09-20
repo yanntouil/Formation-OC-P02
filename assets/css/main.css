@@ -227,11 +227,10 @@ b {
     padding: 2.75rem 1.5rem 1rem;
     border-top: 2px solid transparent;
     font-weight: 600;/* not sure maybe 500 */
-    transition: color 300ms ease-in-out, border-top 300ms ease-in-out;
+    transition: color 300ms ease-in-out;
 }
 .header-menu-link:hover, .header-menu-link:focus {
     color: var(--primary-color);
-    border-top: 2px solid var(--primary-light-color);
 }
 .header-menu-link.current {
     border-top-color: var(--primary-color);
