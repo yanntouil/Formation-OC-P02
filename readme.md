@@ -1,6 +1,6 @@
 # Projet 2
 
-[Page disponible sur Gitpage](https://yanntouil.github.io/YannTouil_2_17092021/index.html)
+[Page disponible sur GitHub Pages](https://yanntouil.github.io/YannTouil_2_17092021/index.html)
 
 ## Transformez une maquette en site web
 
