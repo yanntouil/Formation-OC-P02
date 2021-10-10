@@ -4,6 +4,7 @@
  */
 
 
+
 /**
  * Reset and base
  */
@@ -20,10 +21,10 @@ html {
 }
 body {
     display: flex; flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
     background-color: var(--background-color);
     color: var(--text-color);
+    min-height: 100vh;
+    margin: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     line-height: 1.5;
@@ -153,7 +154,6 @@ b {
 .card-picture {
     flex-shrink: 0;
     width: 100%;
-    background-position: center; background-size: cover;
 }
 .card-body {
     display: flex; flex-direction: column;
@@ -371,7 +371,7 @@ b {
 }
 .filter-nav-button:before {
     position: absolute; top: calc(var(--border) * -1); left: calc(var(--border) * -1); z-index: 1;
-    content: " ";
+    content: "";
     width: var(--form-height); height: var(--form-height);
     border-radius: calc(var(--form-height) / 2);
     background-color: var(--primary-light-color);
